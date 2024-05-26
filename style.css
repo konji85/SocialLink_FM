@@ -57,9 +57,13 @@ body{
                 font-weight: 600;
 
             }
-
+.social-link:hover{background-color:hsl(75, 94%, 57%);}
 .social-link a{
                 text-decoration: none;
+                display: block;
+               margin: 0;
                 color:hsl(0, 0%, 100%);
                 }
-.social-link a:hover{background-color:hsl(75, 94%, 57%); color: hsl(0, 0%, 20%);}
+.social-link a:hover{color: hsl(0, 0%, 20%);
+
+}
