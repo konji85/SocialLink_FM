@@ -10,7 +10,7 @@ body{
 
 .container{
     max-width:350px;
-    margin:200px auto;
+    margin:150px auto;
     padding-bottom: 10px;
     background-color: hsl(0, 0%, 12%) ;
     display: flex;
