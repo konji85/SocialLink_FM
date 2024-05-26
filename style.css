@@ -1,0 +1,65 @@
+body{
+    max-width:1440px;
+    font-size: 14px;
+    font-family: 'Inter';
+    background-color:hsl(0, 0%, 8%) ;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400; 
+    
+}
+
+.container{
+    max-width:350px;
+    margin:0 auto;
+    padding-bottom: 10px;
+    background-color: hsl(0, 0%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+   
+
+
+   
+}
+.profile-image{display: flex;}
+.profile-image img{
+    margin: 25px auto;
+    width:90px;
+    border-radius: 50%;
+}
+.profile-name{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 5px auto;
+}
+
+.location{
+   color:  hsl(75, 94%, 57%);
+   font-weight: 600;
+   margin: 3px auto;
+}
+
+.info{
+    margin:20px auto;
+    color: hsl(0, 0%, 70%);
+}
+
+
+.social-li{ width:85%}
+.social-link{
+                width: 100%;
+                background-color:  hsl(0, 0%, 20%);
+                border-radius: 10px;
+                margin:15px 0;
+                padding: 14px 0;
+                text-align: center;
+                font-weight: 600;
+
+            }
+
+.social-link a{
+                text-decoration: none;
+                color:hsl(0, 0%, 100%);
+                }
+.social-link:hover{background-color:hsl(75, 94%, 57%); color: hsl(0, 0%, 20%);}
