@@ -10,7 +10,7 @@ body{
 
 .container{
     max-width:350px;
-    margin:0 auto;
+    margin:100px auto;
     padding-bottom: 10px;
     background-color: hsl(0, 0%, 12%) ;
     display: flex;
@@ -62,4 +62,4 @@ body{
                 text-decoration: none;
                 color:hsl(0, 0%, 100%);
                 }
-.social-link:hover{background-color:hsl(75, 94%, 57%); color: hsl(0, 0%, 20%);}
+.social-link a:hover{background-color:hsl(75, 94%, 57%); color: hsl(0, 0%, 20%);}
